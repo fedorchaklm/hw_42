@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  height: fit-content;
+  color: var(--bg-color);
+}
+
+.item__title,
+.item__description {
+  padding: 1px 15px;
+
+}
+
+.item__delNoteBtn {
+  justify-self: flex-end;
+}
